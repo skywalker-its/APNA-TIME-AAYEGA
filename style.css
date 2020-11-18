@@ -1,0 +1,26 @@
+h1{
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+}
+
+body {
+    background-color: #ffffff;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+    @keyframes colorchange{
+        0%{background-color: #49daf4;}
+        10%{background-color: #07f857;}
+        20%{background-color: #07f5f5;}
+        30%{background-color: #7d42dd;}
+        40%{background-color: #f37a00;}
+        50%{background-color: #12f337;}
+        60%{background-color: #ec09ec;}
+        70%{background-color: #020202fd;}
+        80%{background-color: #e90c0c;}
+        90%{background-color: #2011ec;}
+        100%{background-color: #e7f70b;}
+}
